@@ -72,6 +72,9 @@ h2 {
   margin-bottom: 0px;
 }
 */
+div.Header-inner--bottom {
+  background-color: hsl(192, 63%, 21%);
+}
 /*----------  MOBILE HEADER  ----------*/
 /*
 .Mobile-bar--top {
@@ -94,3 +97,7 @@ h2 {
   display: none !important;
 }
 /*=====  End of FOOTER  ======*/
+/*==================================
+=            TYPOGRAPHY             =
+==================================*/
+/*=====  End of TYPOGRAPHY   ======*/
