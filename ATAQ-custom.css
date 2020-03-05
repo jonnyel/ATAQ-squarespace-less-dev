@@ -77,7 +77,7 @@ h2 {
 }
 */
 div.Header-inner--bottom {
-  background-color: hsl(181, 82%, 40%);
+  background-color: hsl(192, 63%, 21%);
 }
 /*----------  MOBILE HEADER  ----------*/
 /*
@@ -101,7 +101,7 @@ div.Header-inner--bottom {
 =            FOOTER            =
 ==============================*/
 .Footer {
-  background-color: hsl(177, 48%, 55%);
+  background-color: hsl(181, 82%, 40%);
 }
 .sqs-licensed-asset-preview-bar {
   display: none !important;
