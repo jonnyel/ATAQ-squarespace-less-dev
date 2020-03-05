@@ -101,3 +101,21 @@ div.Header-inner--bottom {
 =            TYPOGRAPHY             =
 ==================================*/
 /*=====  End of TYPOGRAPHY   ======*/
+/*==================================
+=            INDEX PAGE            =
+==================================*/
+/*----------  #landing section  ----------*/
+/*#landing p {
+  font-size: 1.5em;
+  line-height: 1.6em;
+}*/
+#landing div.image-inset.content-fit {
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#landing div.image-card.sqs-dynamic-text-container {
+  padding-top: 0.25em;
+}
+/*=====  End of INDEX PAGE  ======*/
