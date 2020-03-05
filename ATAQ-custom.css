@@ -79,6 +79,9 @@ h2 {
 div.Header-inner--bottom {
   background-color: hsl(192, 63%, 21%);
 }
+nav.Header-nav.Header-nav--secondary {
+  padding-right: 40px;
+}
 /*----------  MOBILE HEADER  ----------*/
 /*
 .Mobile-bar--top {
@@ -114,27 +117,52 @@ h1 {
   color: hsl(181, 82%, 40%);
 }
 /*=====  End of TYPOGRAPHY   ======*/
-/*==================================
-=            INDEX PAGE            =
-==================================*/
-/*----------  #landing section  ----------*/
-/*#landing p {
-  font-size: 1.5em;
-  line-height: 1.6em;
-}*/
+/**
+ *
+ * ================================== =
+ * =            INDEX PAGE            =
+ * ================================== =
+ */
+/*========================================
+=            #landing section            =
+========================================*/
 #landing h1 {
-  font-size: 3.6em;
+  font-size: 3.5em;
   color: white;
+}
+#landing p {
+  font-size: 1.125em;
+  line-height: 1.6em;
 }
 #landing div.image-card.sqs-dynamic-text-container {
   padding-top: 0.25em;
 }
-/*----------  #features section  ----------*/
+#landing div.sqs-block-button {
+  padding-top: 1.25em;
+}
+#landing div.sqs-block-button-container--center {
+  font-size: 1.25em;
+}
+@media screen and (max-width: 640px) {
+  #landing h1 {
+    font-size: 2.25em;
+  }
+  #landing p {
+    font-size: 1.125em;
+  }
+  #landing div.sqs-block-button-container--center {
+    font-size: 1em;
+  }
+}
+/*=====  End of #landing section  ======*/
+/*=========================================
+=            #features section            =
+=========================================*/
 #features h1 {
-  padding-bottom: 0.5em;
+  padding-bottom: 0.25em;
 }
 #features div.image-inset.content-fit {
-  width: 100% !important;
+  width: 90% !important;
   height: auto !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -142,6 +170,11 @@ h1 {
 #features div.image-card.sqs-dynamic-text-container {
   padding-top: 0.25em;
 }
+#features h2,
+#features p {
+  color: hsl(181, 82%, 33%);
+}
+/*=====  End of #features section  ======*/
 /*=============================================
 =            #testimonials section            =
 =============================================*/

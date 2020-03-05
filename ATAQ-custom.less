@@ -18,6 +18,8 @@
 /* DEFINE ATAQ Brand Colour variables */
 @ataq-blue: hsl(196, 100%, 47%);
 @ataq-aqua: hsl(181, 82%, 40%);
+@ataq-aqua-type: hsl(181, 82%, 33%);
+@ataq-dark-type: hsl(192, 63%, 25%);
 @ataq-dark: hsl(192, 63%, 21%);
 @ataq-darker: hsl(192, 63%, 11%);
 @ataq-lighter: hsl(192, 63%, 97%);
@@ -102,6 +104,9 @@ div.Header-inner--bottom {
 	background-color: @ataq-dark;
 }
 
+nav.Header-nav.Header-nav--secondary {
+  padding-right: 40px;
+}
 /*----------  MOBILE HEADER  ----------*/
 
 // Drop Shadow Mobile Header
@@ -152,41 +157,71 @@ h1 {
 	color: @ataq-aqua;
 }
 
-
 /*=====  End of TYPOGRAPHY   ======*/
 
 
-/*==================================
-=            INDEX PAGE            =
-==================================*/
+/**
+ *
+ * ================================== =
+ * =            INDEX PAGE            =
+ * ================================== =
+ */
 
-/*----------  #landing section  ----------*/
-/*#landing p {
-  font-size: 1.5em;
-  line-height: 1.6em;
-}*/
+/*========================================
+=            #landing section            =
+========================================*/
+
 
 #landing {
 
   h1 {
-    font-size: 3.6em;
+    font-size: 3.5em;
     color: white;
   }
-
+  p {
+    font-size: 1.125em;
+    line-height: 1.6em;
+  }
   div.image-card.sqs-dynamic-text-container {
     padding-top: 0.25em;
   }
-
+  div.sqs-block-button {
+    padding-top: 1.25em;
+  }
+  div.sqs-block-button-container--center {
+    font-size: 1.25em;
+  }
 }
 
-/*----------  #features section  ----------*/
+@media screen and (max-width:640px) {
+  #landing {
+    h1 {
+      font-size: 2.25em;
+    }
+    p {
+      font-size: 1.125em;
+    }
+    div.sqs-block-button-container--center {
+      font-size: 1.0em;
+    }
+  }
+}
+
+/*=====  End of #landing section  ======*/
+
+
+/*=========================================
+=            #features section            =
+=========================================*/
+
 #features {
 
   h1 {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.25em;
   }
+  // icon size and position
   div.image-inset.content-fit {
-    width:100% !important;
+    width:90% !important;
     height:auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -194,8 +229,14 @@ h1 {
   div.image-card.sqs-dynamic-text-container {
       padding-top: 0.25em;
   }
+  h2, p {
+    color: @ataq-aqua-type;
+  }
 
 }
+
+/*=====  End of #features section  ======*/
+
 
 /*=============================================
 =            #testimonials section            =
