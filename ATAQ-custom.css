@@ -140,23 +140,13 @@ h1 {
   margin-right: auto !important;
 }
 #features div.image-card.sqs-dynamic-text-container {
-  padding-top: 0.5em;
+  padding-top: 0.25em;
 }
 /*=============================================
 =            #testimonials section            =
 =============================================*/
 #testimonials div.Index-page-content {
-  background-color: hsl(338, 40%, 43%);
-}
-#testimonials p,
-#testimonials h1,
-#testimonials h2,
-#testimonials a,
-#testimonials border-color {
-  color: white;
+  background-color: hsl(192, 63%, 97%);
 }
 /*=====  End of #testimonials section  ======*/
-#testimonials div.Index-page-content {
-  background-color: hsl(338, 40%, 43%);
-}
 /*=====  End of INDEX PAGE  ======*/
