@@ -19,11 +19,17 @@
 @ataq-blue: hsl(196, 100%, 47%);
 @ataq-aqua: hsl(181, 82%, 40%);
 @ataq-dark: hsl(192, 63%, 21%);
+@ataq-darker: hsl(192, 63%, 11%);
 @ataq-wine: hsl(338, 40%, 43%);
 @ataq-brand-blue: hsl(193, 100%, 40%);
 @ataq-brand-aqua: hsl(177, 48%, 55%);
 @ataq-transp: hsla(0,0%,100%,0);
 
+
+/*----------  BODY  ----------*/
+body.tweak-site-width-option-constrained-width {
+  background-color: @ataq-darker;
+}
 
 /*=============================
 =            FONTS            =
@@ -92,7 +98,7 @@ h2 {
 */
 
 div.Header-inner--bottom {
-	background-color: @ataq-dark;
+	background-color: @ataq-aqua;
 }
 
 /*----------  MOBILE HEADER  ----------*/
@@ -113,12 +119,20 @@ div.Header-inner--bottom {
 }
 */
 
+.Mobile-bar-branding-logo {
+  width: 135px;
+}
+
 /*=====  End of HEADER  ======*/
 
 
 /*==============================
 =            FOOTER            =
 ==============================*/
+
+.Footer {
+  background-color: @ataq-brand-aqua;
+}
 
 .Footer-blocks--top {}
 
@@ -134,7 +148,7 @@ div.Header-inner--bottom {
 ==================================*/
 
 h1 {
-	// transform: skew(-10deg, -10deg);
+	color: @ataq-aqua;
 }
 
 
@@ -153,17 +167,59 @@ h1 {
 
 #landing {
 
-  div.image-inset.content-fit {
-    width:20%;
-    height:auto;
-    margin-left: auto;
-    margin-right: auto;
+  h1 {
+    font-size: 3.6em;
+    color: white;
   }
 
   div.image-card.sqs-dynamic-text-container {
     padding-top: 0.25em;
   }
+
+}
+
+/*----------  #features section  ----------*/
+#features {
+
+  h1 {
+    padding-bottom: 0.5em;
+  }
+  div.image-inset.content-fit {
+    width:100% !important;
+    height:auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  div.image-card.sqs-dynamic-text-container {
+      padding-top: 0.5em;
+  }
+
+}
+
+/*=============================================
+=            #testimonials section            =
+=============================================*/
+
+#testimonials {
+
+  div.Index-page-content {
+    background-color: @ataq-wine;
+  }
+  p, h1, h2, a, border-color {
+    color: white;
+  }
+
 }
 
 
+/*=====  End of #testimonials section  ======*/
+
+
+#testimonials {
+
+  div.Index-page-content {
+    background-color: @ataq-wine;
+  }
+
+}
 /*=====  End of INDEX PAGE  ======*/
