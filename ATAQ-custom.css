@@ -198,5 +198,15 @@ h3 {
 #testimonials div.Index-page-content {
   background-color: hsl(192, 63%, 97%);
 }
+#testimonials h1 {
+  font-size: 2em;
+}
 /*=====  End of #testimonials section  ======*/
+/*=============================================
+=            #instagram section            =
+=============================================*/
+#instagram h1 {
+  font-size: 2em;
+}
+/*=====  End of #instagram section  ======*/
 /*=====  End of INDEX PAGE  ======*/
