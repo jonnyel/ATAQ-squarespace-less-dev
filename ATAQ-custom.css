@@ -163,6 +163,10 @@ h1 {
 /*=========================================
 =            #features section            =
 =========================================*/
+#features div.image-block {
+  padding-left: 0;
+  padding-right: 0;
+}
 #features h1 {
   padding-bottom: 0.25em;
 }
