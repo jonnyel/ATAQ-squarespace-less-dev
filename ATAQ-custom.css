@@ -134,6 +134,11 @@ h1 {
   font-size: 1.125em;
   line-height: 1.6em;
 }
+#landing p a {
+  border-bottom-width: 1.5px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255, 255, 255, 0.8);
+}
 #landing div.image-card.sqs-dynamic-text-container {
   padding-top: 0.25em;
 }
