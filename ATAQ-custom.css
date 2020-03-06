@@ -176,6 +176,15 @@ h1 {
 }
 /*=====  End of #features section  ======*/
 /*=============================================
+=            #most-popular section            =
+=============================================*/
+@media screen and (max-width: 640px) {
+  #most-popular div.image-inset.content-fit {
+    top: 27px;
+  }
+}
+/*=====  End of #most-popular section  ======*/
+/*=============================================
 =            #testimonials section            =
 =============================================*/
 #testimonials div.Index-page-content {
