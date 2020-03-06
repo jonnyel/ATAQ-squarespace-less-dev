@@ -68,8 +68,11 @@ h2 {
 /*==============================
 =            HEADER            =
 ==============================*/
-div.Header-inner--bottom {
+header.Header--bottom div.Header-inner.Header-inner--bottom {
   background-color: hsl(192, 63%, 21%);
+}
+header.Header--bottom.Header--overlay div.Header-inner.Header-inner--bottom {
+  background-color: hsla(192, 63%, 21%, 0.65);
 }
 nav.Header-nav.Header-nav--secondary {
   padding-right: 40px;
@@ -122,9 +125,6 @@ h3 {
 /*========================================
 =            #landing section            =
 ========================================*/
-#landing div.Index-page-content {
-  padding-top: 30px;
-}
 #landing h1 {
   font-size: 3.5em;
   color: white;
