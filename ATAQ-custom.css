@@ -88,9 +88,11 @@ nav.Header-nav.Header-nav--secondary {
 .Footer-blocks--top {
   padding: 0;
   padding-top: 2rem;
-  background-color: hsla(0, 0%, 100%, 0);
+  background-color: hsla(181, 82%, 40%, 0.2);
+  background-blend-mode: soft-light;
 }
 .Footer-blocks--top div.newsletter-block {
+  padding-bottom: 0 !important;
   width: 100% !important;
 }
 .Footer-blocks--top div.newsletter-block button.newsletter-form-button {
