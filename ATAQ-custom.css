@@ -18,53 +18,36 @@
 /* DEFINE page name variables instead of collection id */
 /* DEFINE ATAQ Brand Colour variables */
 /*----------  BODY  ----------*/
-body.tweak-site-width-option-constrained-width {
-  background-color: hsl(192, 63%, 11%);
-}
 /*=============================
 =            FONTS            =
 =============================*/
 /*----------  Custom Fonts  ----------*/
 /*
-@font-face {font-family: 'Notera';src: url('https://static1.squarespace.com/static/59dda7263e00be15fdb4d6cf/t/5dd571e426591d0da6e5feda/1574269412456/Notera.woff2') format('woff2'),url('https://static1.squarespace.com/static/59dda7263e00be15fdb4d6cf/t/5dd571dfd8f6e70a23740916/1574269407854/Notera.woff') format('woff');}
-
-@font-face {font-family: 'Notera2Thin';src: url('https://static1.squarespace.com/static/59dda7263e00be15fdb4d6cf/t/5e39b0300934747943124a00/1580838960090/Notera2Thin.woff2') format('woff2'),url('https://static1.squarespace.com/static/59dda7263e00be15fdb4d6cf/t/5e39b02aa0af01453b5d92aa/1580838954298/Notera2Thin.woff') format('woff');}
-
-h5 {
-  font-family: 'Notera'; 
-  font-size: 3.5em; 
-  font-style: normal;
-  font-weight:100; 
-  letter-spacing:0em;
-  line-height:0.8em; 
-  margin-top: 0.25em; 
-  margin-bottom:0em !important;
-  text-transform: none;
-}
+@font-face {font-family: 'FontName';src: url('source_url') format('woff');}
 */
-/*----------  Highlighter effect definitions  ----------*/
+/*----------  Highlighter effect  ----------*/
 /*
 h2 strong {
   background: linear-gradient(to top, @ataq-color1 45%, @ataq-transp 45%);
 }
 */
-/*=====  End of FONTS  ======*/
-/*----------  disable hyphenation  ----------*/
-/*
-h2 {
-  hyphens: none !important; 
-  -webkit-hyphens: none !important; 
-  -ms-hyphens: none  !important; 
+/*----------  Global Typography  ----------*/
+h1 {
+  color: hsl(181, 82%, 40%);
 }
-*/
-/*----------  Fix header sizing & letterspacing on mobile  ----------*/
-/*
-@media screen and (max-width:640px) {
-  h2 {
-    letter-spacing:.08em;
+h1,
+h2,
+h3 {
+  hyphens: none !important;
+  -webkit-hyphens: none !important;
+  -ms-hyphens: none  !important;
+}
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 1.75em;
   }
 }
-*/
+/*=====  End of FONTS  ======*/
 /*==============================
 =            HEADER            =
 ==============================*/
@@ -106,35 +89,17 @@ nav.Header-nav.Header-nav--secondary {
 }
 .Footer-blocks--top div.newsletter-block {
   margin: 0;
+  max-width: 100% !important;
 }
 .sqs-licensed-asset-preview-bar {
   display: none !important;
 }
 /*=====  End of FOOTER  ======*/
-/*==================================
-=            TYPOGRAPHY             =
-==================================*/
-h1 {
-  color: hsl(181, 82%, 40%);
-}
-h1,
-h2,
-h3 {
-  hyphens: none !important;
-  -webkit-hyphens: none !important;
-  -ms-hyphens: none  !important;
-}
-@media screen and (max-width: 640px) {
-  h1 {
-    font-size: 1.75em;
-  }
-}
-/*=====  End of TYPOGRAPHY   ======*/
 /**
  *
- * ================================== =
- * =            INDEX PAGE            =
- * ================================== =
+ * = ========================================== =
+ * =             I N D E X   P A G E            =
+ * = ========================================== =
  */
 /*========================================
 =            #landing section            =
@@ -223,4 +188,4 @@ h3 {
   font-size: 2em;
 }
 /*=====  End of #instagram section  ======*/
-/*=====  End of INDEX PAGE  ======*/
+/*=====  End of   I N D E X   P A G E   ======*/

@@ -30,8 +30,8 @@
 
 
 /*----------  BODY  ----------*/
-body.tweak-site-width-option-constrained-width {
-  background-color: @ataq-darker;
+body {
+  // background-color: @ataq-darker !important;
 }
 
 /*=============================
@@ -41,49 +41,38 @@ body.tweak-site-width-option-constrained-width {
 /*----------  Custom Fonts  ----------*/
 
 /*
-@font-face {font-family: 'Notera';src: url('https://static1.squarespace.com/static/59dda7263e00be15fdb4d6cf/t/5dd571e426591d0da6e5feda/1574269412456/Notera.woff2') format('woff2'),url('https://static1.squarespace.com/static/59dda7263e00be15fdb4d6cf/t/5dd571dfd8f6e70a23740916/1574269407854/Notera.woff') format('woff');}
-
-@font-face {font-family: 'Notera2Thin';src: url('https://static1.squarespace.com/static/59dda7263e00be15fdb4d6cf/t/5e39b0300934747943124a00/1580838960090/Notera2Thin.woff2') format('woff2'),url('https://static1.squarespace.com/static/59dda7263e00be15fdb4d6cf/t/5e39b02aa0af01453b5d92aa/1580838954298/Notera2Thin.woff') format('woff');}
-
-h5 {
-  font-family: 'Notera'; 
-  font-size: 3.5em; 
-  font-style: normal;
-  font-weight:100; 
-  letter-spacing:0em;
-  line-height:0.8em; 
-  margin-top: 0.25em; 
-  margin-bottom:0em !important;
-  text-transform: none;
-}
+@font-face {font-family: 'FontName';src: url('source_url') format('woff');}
 */
 
-/*----------  Highlighter effect definitions  ----------*/
+/*----------  Highlighter effect  ----------*/
+
 /*
 h2 strong {
   background: linear-gradient(to top, @ataq-color1 45%, @ataq-transp 45%);
 }
 */
-/*=====  End of FONTS  ======*/
+
+/*----------  Global Typography  ----------*/
+
+h1 {
+  color: @ataq-aqua;
+}
 
 
-/*----------  disable hyphenation  ----------*/
-/*
-h2 {
+h1, h2, h3 {
   hyphens: none !important; 
   -webkit-hyphens: none !important; 
   -ms-hyphens: none  !important; 
-}
-*/
 
-/*----------  Fix header sizing & letterspacing on mobile  ----------*/
-/*
+}
+
 @media screen and (max-width:640px) {
-  h2 {
-    letter-spacing:.08em;
+  h1 {
+    font-size: 1.75em;
   }
 }
-*/
+
+/*=====  End of FONTS  ======*/
 
 
 /*==============================
@@ -101,6 +90,7 @@ nav.Header-nav.Header-nav--secondary {
 }
 
 /*----------  MOBILE HEADER  ----------*/
+
 // Drop Shadow Mobile Header
 .Mobile-bar--top {
   -webkit-box-shadow: 0px 3px 9px hsla(192, 63%, 11%, 0.5);
@@ -127,14 +117,18 @@ nav.Header-nav.Header-nav--secondary {
   max-width: 100% !important;
   padding: 0 0; 
 }
+
 .Footer-blocks--top {
   background-image: url('https://static1.squarespace.com/static/5e4ace3e6b594c4c6cab37a9/t/5e62ddc095105261eeedf75f/1583537600897/bg-pool-tiles-crop.jpg') !important;
   background-size: cover;
   padding-top: 55px;
   padding-bottom: 0px; 
+
   div.newsletter-block {
     margin: 0;
+    max-width: 100% !important;
   }
+
 }
 
 
@@ -147,37 +141,11 @@ nav.Header-nav.Header-nav--secondary {
 /*=====  End of FOOTER  ======*/
 
 
-/*==================================
-=            TYPOGRAPHY             =
-==================================*/
-
-h1 {
-	color: @ataq-aqua;
-}
-
-
-h1, h2, h3 {
-  hyphens: none !important; 
-  -webkit-hyphens: none !important; 
-  -ms-hyphens: none  !important; 
-
-}
-
-@media screen and (max-width:640px) {
-  h1 {
-    font-size: 1.75em;
-  }
-}
-
-
-/*=====  End of TYPOGRAPHY   ======*/
-
-
 /**
  *
- * ================================== =
- * =            INDEX PAGE            =
- * ================================== =
+ * = ========================================== =
+ * =             I N D E X   P A G E            =
+ * = ========================================== =
  */
 
 /*========================================
@@ -306,7 +274,6 @@ h1, h2, h3 {
 
 }
 
-
 /*=====  End of #instagram section  ======*/
 
-/*=====  End of INDEX PAGE  ======*/
+/*=====  End of   I N D E X   P A G E   ======*/
