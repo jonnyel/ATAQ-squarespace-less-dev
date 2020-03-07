@@ -18,9 +18,6 @@
 /* DEFINE page name variables instead of collection id */
 /* DEFINE ATAQ Brand Colour variables */
 /*----------  BODY  ----------*/
-body {
-  background-color: hsl(192, 63%, 11%) !important;
-}
 /*=============================
 =            FONTS            =
 =============================*/
@@ -77,20 +74,16 @@ nav.Header-nav.Header-nav--secondary {
 =            FOOTER            =
 ==============================*/
 /* add custom image behind newsletter subscription block in footer */
-.Footer {
+#Footer {
+  background-color: hsla(192, 63%, 11%, 0.39);
   background-image: url('https://static1.squarespace.com/static/5e4ace3e6b594c4c6cab37a9/t/5e62ddc095105261eeedf75f/1583537600897/bg-pool-tiles-crop.jpg') !important;
+  background-blend-mode: overlay;
   background-size: cover;
-}
-.Footer-inner {
-  max-width: 100% !important;
-  padding: 0 0 !important;
-  background-color: hsla(192, 63%, 11%, 0.9);
 }
 .Footer-blocks--top {
   padding: 0;
   padding-top: 2rem;
   background-color: hsla(181, 82%, 40%, 0.2);
-  background-blend-mode: soft-light;
 }
 .Footer-blocks--top div.newsletter-block {
   padding-bottom: 0 !important;
@@ -127,6 +120,7 @@ nav.Header-nav.Header-nav--secondary {
 #landing h1 {
   font-size: 3.125em;
   color: white;
+  margin-bottom: 0.25em;
 }
 #landing p {
   font-size: 1em;
@@ -137,14 +131,11 @@ nav.Header-nav.Header-nav--secondary {
   border-bottom-style: solid;
   border-bottom-color: rgba(255, 255, 255, 0.8);
 }
-#landing div.image-card.sqs-dynamic-text-container {
-  padding-top: 0.25em;
-}
 #landing div.sqs-block-button {
-  padding-top: 1.25em;
+  padding-top: 1.75em;
 }
 #landing div.sqs-block-button-container--center {
-  font-size: 1.25em;
+  font-size: 1.125em;
 }
 @media screen and (max-width: 640px) {
   #landing h1 {

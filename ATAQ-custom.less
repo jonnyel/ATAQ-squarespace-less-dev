@@ -23,7 +23,7 @@
 @ataq-dark-type: hsl(192, 63%, 25%);
 @ataq-dark: hsl(192, 63%, 21%);
 @ataq-darker: hsl(192, 63%, 11%);
-@ataq-dark-overlay: hsla(192, 63%, 11%, 0.9);
+@ataq-dark-overlay: hsla(192, 63%, 11%, 0.39);
 @ataq-lighter: hsl(192, 63%, 94%);
 @ataq-wine: hsl(338, 40%, 43%);
 @ataq-brand-blue: hsl(193, 100%, 40%);
@@ -33,7 +33,7 @@
 
 /*----------  BODY  ----------*/
 body {
-  background-color: @ataq-darker !important;
+  // background-color: @ataq-darker !important;
 }
 
 /*=============================
@@ -111,22 +111,25 @@ nav.Header-nav.Header-nav--secondary {
 ==============================*/
 
 /* add custom image behind newsletter subscription block in footer */
-.Footer { 
+#Footer { 
+  background-color: @ataq-dark-overlay;
   background-image: url('https://static1.squarespace.com/static/5e4ace3e6b594c4c6cab37a9/t/5e62ddc095105261eeedf75f/1583537600897/bg-pool-tiles-crop.jpg') !important;
+  background-blend-mode: overlay;
   background-size: cover;
+  
 }
 
 .Footer-inner {
-  max-width: 100% !important;
-  padding: 0 0 !important; 
-  background-color: @ataq-dark-overlay;
+  // max-width: 100%;
+  // padding-right: 0;
+  // padding-left: 0; 
 }
 
 .Footer-blocks--top {
   padding: 0;
   padding-top: 2.0rem;
   background-color: @ataq-aqua-overlay;
-    background-blend-mode: soft-light ;
+    // background-blend-mode: soft-light ;
 
 
   div.newsletter-block {
@@ -180,6 +183,7 @@ nav.Header-nav.Header-nav--secondary {
   h1 {
     font-size: 3.125em;
     color: white;
+    margin-bottom: 0.25em;
   }
   p {
     font-size: 1.0em;
@@ -190,14 +194,12 @@ nav.Header-nav.Header-nav--secondary {
     border-bottom-style: solid;
     border-bottom-color: rgba(255,255,255,.8);
   }
-  div.image-card.sqs-dynamic-text-container {
-    padding-top: 0.25em;
-  }
+
   div.sqs-block-button {
-    padding-top: 1.25em;
+    padding-top: 1.75em;
   }
   div.sqs-block-button-container--center {
-    font-size: 1.25em;
+    font-size: 1.125em;
   }
 }
 
