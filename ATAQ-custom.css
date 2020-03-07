@@ -79,7 +79,7 @@ nav.Header-nav.Header-nav--secondary {
 }
 .Footer-inner {
   max-width: 100% !important;
-  padding: 0 0;
+  padding: 0 0 !important;
 }
 .Footer-blocks--top {
   background-image: url('https://static1.squarespace.com/static/5e4ace3e6b594c4c6cab37a9/t/5e62ddc095105261eeedf75f/1583537600897/bg-pool-tiles-crop.jpg') !important;
@@ -179,10 +179,10 @@ nav.Header-nav.Header-nav--secondary {
 /*=============================================
 =            #testimonials section            =
 =============================================*/
-#testimonials div.Index-page-content {
-  background-color: hsl(192, 63%, 97%);
+section#testimonials .Index-page {
+  background-color: red !important;
 }
-#testimonials h1 {
+section#testimonials h1 {
   font-size: 2em;
 }
 /*=====  End of #testimonials section  ======*/
