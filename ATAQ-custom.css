@@ -25,7 +25,14 @@
 /*
 @font-face {font-family: 'FontName';src: url('source_url') format('woff');}
 */
-medi h1 {
+/*----------  Highlighter effect  ----------*/
+/*
+h2 strong {
+  background: linear-gradient(to top, @ataq-color1 45%, @ataq-transp 45%);
+}
+*/
+/*----------  Global Typography  ----------*/
+h1 {
   color: hsl(181, 82%, 40%);
 }
 h1,
