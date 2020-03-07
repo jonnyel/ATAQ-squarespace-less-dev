@@ -54,10 +54,10 @@ h3 {
 /*==============================
 =            HEADER            =
 ==============================*/
-header.Header--bottom div.Header-inner.Header-inner--bottom {
+header.Header--bottom {
   background-color: hsl(192, 63%, 21%);
 }
-header.Header--bottom.Header--overlay div.Header-inner.Header-inner--bottom {
+header.Header--bottom.Header--overlay {
   background-color: hsla(192, 63%, 21%, 0.65);
 }
 nav.Header-nav.Header-nav--secondary {
@@ -92,7 +92,16 @@ nav.Header-nav.Header-nav--secondary {
 }
 .Footer-blocks--top div.newsletter-block {
   margin: 0;
-  max-width: 100% !important;
+  width: 100% !important;
+}
+.Footer-blocks--top div.newsletter-block button.newsletter-form-button {
+  font-family: trade-gothic-next-soft-rounded;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #fff;
 }
 .Footer-blocks--middle,
 .Footer-blocks--bottom,
