@@ -91,8 +91,11 @@ nav.Header-nav.Header-nav--secondary {
 =            FOOTER            =
 ==============================*/
 /* add custom image behind newsletter subscription block in footer */
+.Footer {
+  background-color: hsl(192, 63%, 21%);
+}
 .Footer-inner {
-  max-width: 100%!important;
+  max-width: 100% !important;
   padding: 0 0;
 }
 .Footer-blocks--top {
@@ -101,8 +104,8 @@ nav.Header-nav.Header-nav--secondary {
   padding-top: 55px;
   padding-bottom: 0px;
 }
-.Footer {
-  background-color: hsl(192, 63%, 21%);
+.Footer-blocks--top div.newsletter-block {
+  margin: 0;
 }
 .sqs-licensed-asset-preview-bar {
   display: none !important;
