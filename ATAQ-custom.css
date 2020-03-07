@@ -89,7 +89,7 @@ nav.Header-nav.Header-nav--secondary {
 }
 .Footer-blocks--top div.newsletter-block {
   margin: 0;
-  max-width: 100% !important;
+  width: 100% !important;
 }
 .sqs-licensed-asset-preview-bar {
   display: none !important;
