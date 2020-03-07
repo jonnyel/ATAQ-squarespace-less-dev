@@ -18,6 +18,9 @@
 /* DEFINE page name variables instead of collection id */
 /* DEFINE ATAQ Brand Colour variables */
 /*----------  BODY  ----------*/
+body {
+  background-color: hsl(192, 63%, 11%) !important;
+}
 /*=============================
 =            FONTS            =
 =============================*/
@@ -179,10 +182,10 @@ nav.Header-nav.Header-nav--secondary {
 /*=============================================
 =            #testimonials section            =
 =============================================*/
-section#testimonials .Index-page {
-  background-color: red !important;
+#testimonials.Index-page {
+  background-color: hsl(192, 63%, 97%);
 }
-section#testimonials h1 {
+#testimonials h1 {
   font-size: 2em;
 }
 /*=====  End of #testimonials section  ======*/
