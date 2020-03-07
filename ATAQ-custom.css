@@ -78,20 +78,19 @@ nav.Header-nav.Header-nav--secondary {
 ==============================*/
 /* add custom image behind newsletter subscription block in footer */
 .Footer {
-  background-color: hsl(192, 63%, 21%);
-}
-.Footer-inner {
-  max-width: 100% !important;
-  padding: 0 0 !important;
-}
-.Footer-blocks--top {
   background-image: url('https://static1.squarespace.com/static/5e4ace3e6b594c4c6cab37a9/t/5e62ddc095105261eeedf75f/1583537600897/bg-pool-tiles-crop.jpg') !important;
   background-size: cover;
+}
+.Footer-inner {
+  padding: 0 0 !important;
+  background-color: hsla(192, 63%, 11%, 0.9);
+}
+.Footer-blocks--top {
   padding: 0;
   padding-top: 2rem;
+  background-color: hsla(0, 0%, 100%, 0);
 }
 .Footer-blocks--top div.newsletter-block {
-  margin: 0;
   width: 100% !important;
 }
 .Footer-blocks--top div.newsletter-block button.newsletter-form-button {
@@ -106,7 +105,8 @@ nav.Header-nav.Header-nav--secondary {
 .Footer-blocks--middle,
 .Footer-blocks--bottom,
 .Footer-nav {
-  padding: inherit 30px !important;
+  padding-left: 17px !important;
+  padding-right: 17px !important;
 }
 .sqs-licensed-asset-preview-bar {
   display: none !important;
@@ -192,7 +192,7 @@ nav.Header-nav.Header-nav--secondary {
 =            #testimonials section            =
 =============================================*/
 #testimonials.Index-page {
-  background-color: hsl(192, 63%, 97%);
+  background-color: hsl(192, 63%, 94%);
 }
 #testimonials h1 {
   font-size: 2em;
