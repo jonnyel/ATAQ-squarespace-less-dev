@@ -82,6 +82,7 @@ nav.Header-nav.Header-nav--secondary {
   background-size: cover;
 }
 .Footer-inner {
+  max-width: 100% !important;
   padding: 0 0 !important;
   background-color: hsla(192, 63%, 11%, 0.9);
 }
@@ -124,12 +125,12 @@ nav.Header-nav.Header-nav--secondary {
 =            #landing section            =
 ========================================*/
 #landing h1 {
-  font-size: 3.5em;
+  font-size: 3.125em;
   color: white;
 }
 #landing p {
-  font-size: 1.125em;
-  line-height: 1.6em;
+  font-size: 1em;
+  line-height: 1.7em;
 }
 #landing p a {
   border-bottom-width: 1.5px;
@@ -154,6 +155,9 @@ nav.Header-nav.Header-nav--secondary {
   }
   #landing div.sqs-block-button-container--center {
     font-size: 1em;
+  }
+  #landing div.Index-page-content {
+    padding-top: 45px;
   }
 }
 /*=====  End of #landing section  ======*/
