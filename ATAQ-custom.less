@@ -172,9 +172,6 @@ footer.Footer {
 
 
 #landing {
-  div.Index-page-content {
-    // padding-top: 30px;
-  }
   h1 {
     font-size: 3.125em;
     color: white;
@@ -182,6 +179,7 @@ footer.Footer {
   }
   p {
     font-size: 1.0em;
+    // font-size: 1.43vw;
     line-height: 1.7em;
   }
   p a {
@@ -244,7 +242,15 @@ footer.Footer {
   h2, p {
     color: @ataq-aqua-type;
   }
-
+  .sqs-block-image .design-layout-card:not(.sqs-narrow-width) {
+    display: block !important;
+  }
+  .sqs-block-image .design-layout-card:not(.sqs-narrow-width) .image-card-wrapper {
+      width: 100% !important;
+  }
+  .sqs-block-image .design-layout-card:not(.sqs-narrow-width)>div:first-child {
+      width: 100% !important;
+  }
 }
 
 /*=====  End of #features section  ======*/

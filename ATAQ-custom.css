@@ -181,6 +181,15 @@ footer.Footer {
 #features p {
   color: hsl(181, 82%, 33%);
 }
+#features .sqs-block-image .design-layout-card:not(.sqs-narrow-width) {
+  display: block !important;
+}
+#features .sqs-block-image .design-layout-card:not(.sqs-narrow-width) .image-card-wrapper {
+  width: 100% !important;
+}
+#features .sqs-block-image .design-layout-card:not(.sqs-narrow-width) > div:first-child {
+  width: 100% !important;
+}
 /*=====  End of #features section  ======*/
 /*=============================================
 =            #most-popular section            =
