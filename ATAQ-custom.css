@@ -15,9 +15,7 @@
     opacity: 1;
   }
 }
-/* DEFINE page name variables instead of collection id */
 /* DEFINE ATAQ Brand Colour variables */
-/*----------  BODY  ----------*/
 /*=============================
 =            FONTS            =
 =============================*/
@@ -100,6 +98,9 @@ footer.Footer {
 .Footer-blocks--top .newsletter-form-field-element {
   color: hsl(192, 63%, 25%);
   font-weight: 700;
+}
+.Footer-blocks--middle {
+  margin-top: 2rem;
 }
 .Footer-blocks--middle,
 .Footer-blocks--bottom,
@@ -206,3 +207,20 @@ footer.Footer {
 }
 /*=====  End of #instagram section  ======*/
 /*=====  End of   I N D E X   P A G E   ======*/
+/*=============================================
+=            #contact page            =
+=============================================*/
+#collection-5e629b554f939d6a4c649ce8 {
+  /*----------  remove newsletter from this page  ----------*/
+  /*----------  remove Powered by Squarespace Scheduling  ----------*/
+}
+#collection-5e629b554f939d6a4c649ce8 div .Footer-blocks--top {
+  display: none !important;
+}
+#collection-5e629b554f939d6a4c649ce8 div .Footer-blocks--middle {
+  margin-top: -1.5rem;
+}
+#collection-5e629b554f939d6a4c649ce8 div#acuity-footer {
+  display: none !important;
+}
+/*=====  End of #contact page  ======*/

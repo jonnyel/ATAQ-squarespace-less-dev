@@ -11,10 +11,6 @@
   100% {opacity:1;}
 }
 
-/* DEFINE page name variables instead of collection id */
-// @services-page: collection-5e1e35322ee5903aac1cf3c5;
-// @bio-page: collection-5e1e3b0dea1c913c8b171986;
-
 /* DEFINE ATAQ Brand Colour variables */
 @ataq-blue: hsl(196, 100%, 47%);
 @ataq-aqua: hsl(181, 82%, 40%);
@@ -30,11 +26,6 @@
 @ataq-brand-aqua: hsl(177, 48%, 55%);
 @ataq-transp: hsla(0,0%,100%,0);
 
-
-/*----------  BODY  ----------*/
-body {
-  // background-color: @ataq-darker !important;
-}
 
 /*=============================
 =            FONTS            =
@@ -151,7 +142,9 @@ footer.Footer {
   }
 }
   
-
+.Footer-blocks--middle {
+  margin-top: 2rem;
+}
 .Footer-blocks--middle,
 .Footer-blocks--bottom,
 .Footer-nav {
@@ -301,3 +294,25 @@ footer.Footer {
 /*=====  End of #instagram section  ======*/
 
 /*=====  End of   I N D E X   P A G E   ======*/
+
+
+/*=============================================
+=            #contact page            =
+=============================================*/
+
+#collection-5e629b554f939d6a4c649ce8 {
+  /*----------  remove newsletter from this page  ----------*/
+  div .Footer-blocks--top {
+    display: none !important;
+  }
+  div .Footer-blocks--middle {
+    margin-top: -1.5rem;
+  }
+  /*----------  remove Powered by Squarespace Scheduling  ----------*/
+  div#acuity-footer {
+    display: none !important;
+  }
+}
+
+/*=====  End of #contact page  ======*/
+
