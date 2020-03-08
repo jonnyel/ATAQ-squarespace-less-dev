@@ -81,6 +81,8 @@ footer.Footer {
 .Footer-blocks--top {
   padding-top: 2rem;
   background-color: hsla(181, 82%, 40%, 0.52);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .Footer-blocks--top div.newsletter-block {
   padding-bottom: 0 !important;
@@ -212,15 +214,11 @@ footer.Footer {
 =============================================*/
 #collection-5e629b554f939d6a4c649ce8 {
   /*----------  remove newsletter from this page  ----------*/
-  /*----------  remove Powered by Squarespace Scheduling  ----------*/
 }
 #collection-5e629b554f939d6a4c649ce8 div .Footer-blocks--top {
   display: none !important;
 }
 #collection-5e629b554f939d6a4c649ce8 div .Footer-blocks--middle {
   margin-top: -1.5rem;
-}
-#collection-5e629b554f939d6a4c649ce8 div#acuity-footer {
-  display: none !important;
 }
 /*=====  End of #contact page  ======*/
