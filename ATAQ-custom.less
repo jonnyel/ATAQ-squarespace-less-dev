@@ -4,7 +4,6 @@
 #desktopNav, .title-desc-inner {
   animation: fade-me-in 1.5s;
 }
-
 @keyframes fade-me-in {
   0% {opacity:0;}
   80% {opacity:0;}
@@ -26,6 +25,10 @@
 @ataq-brand-aqua: hsl(177, 48%, 55%);
 @ataq-transp: hsla(0,0%,100%,0);
 
+// fix top margin glitch on mobile menu open
+body .is-mobile-overlay-active {
+  margin-top: 0 !important;
+}
 
 /*=============================
 =            FONTS            =

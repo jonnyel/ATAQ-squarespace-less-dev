@@ -16,6 +16,9 @@
   }
 }
 /* DEFINE ATAQ Brand Colour variables */
+body .is-mobile-overlay-active {
+  margin-top: 0 !important;
+}
 /*=============================
 =            FONTS            =
 =============================*/
