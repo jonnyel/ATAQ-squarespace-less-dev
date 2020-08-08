@@ -15,6 +15,7 @@
     opacity: 1;
   }
 }
+/* DEFINE element variables */
 /* DEFINE ATAQ Brand Colour variables */
 /*=============================
 =            FONTS            =
@@ -146,16 +147,16 @@ footer.Footer {
 #landing div.sqs-block-button-container--center {
   font-size: 1.125em;
 }
-#landing #block-yui_3_17_2_1_1596820888480_45809 img {
-  border-radius: 50%;
-  border: white 3px solid;
-  box-sizing: border-box;
-}
 #landing #block-yui_3_17_2_1_1596820888480_45809 {
   width: 67%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 0.5rem !important;
+}
+#landing #block-yui_3_17_2_1_1596820888480_45809 img {
+  border-radius: 50%;
+  border: white 3px solid;
+  box-sizing: border-box;
 }
 #landing #block-yui_3_17_2_1_1583775184157_5628 {
   padding-top: 2.25em;

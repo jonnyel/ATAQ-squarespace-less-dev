@@ -10,6 +10,11 @@
   100% {opacity:1;}
 }
 
+
+/* DEFINE element variables */
+@landing-hero-photo: block-yui_3_17_2_1_1596820888480_45809;
+@landing-organizations: block-yui_3_17_2_1_1583775184157_5628;
+
 /* DEFINE ATAQ Brand Colour variables */
 @ataq-blue: hsl(196, 100%, 47%);
 @ataq-aqua: hsl(181, 82%, 40%);
@@ -184,39 +189,44 @@ footer.Footer {
     color: white;
     margin-bottom: 0.25em;
   }
+
   p {
     font-size: 1.0em;
     // font-size: 1.43vw;
     line-height: 1.7em;
   }
+
   p a {
     border-bottom-width: 1.5px;
     border-bottom-style: solid;
-    border-bottom-color: rgba(255,255,255,.8);
+    border-bottom-color: rgba(255, 255, 255, .8);
   }
 
   div.sqs-block-button {
     padding-top: 1.75em;
   }
+
   div.sqs-block-button-container--center {
     font-size: 1.125em;
   }
-  // swimmer photo
-  #block-yui_3_17_2_1_1596820888480_45809 img  {
-    border-radius: 50%;
-	border: white 3px solid;
-	box-sizing: border-box;
-  }
 
-  #block-yui_3_17_2_1_1596820888480_45809 {
-	  width:67%;
-	  margin-left: auto;
-	  margin-right: auto;
-	  padding-bottom: .5rem !important
+  // swimmer photo
+  #@{landing-hero-photo} {
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: .5rem !important;
+
+    img {
+      border-radius: 50%;
+      border: white 3px solid;
+      box-sizing: border-box;
+    }
+
   }
 
   // organizations image
-  #block-yui_3_17_2_1_1583775184157_5628 {
+  #@{landing-organizations} {
     padding-top: 2.25em;
   }
 
