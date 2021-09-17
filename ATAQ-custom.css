@@ -243,8 +243,17 @@ footer.Footer {
 #covid19.Index-page {
   background-color: hsl(192, 63%, 94%);
 }
+#covid19 {
+  /* Hyphens */
+}
 #covid19 h1 {
   font-size: 2em;
+}
+#covid19 p {
+  -webkit-hyphens: manual !important;
+  -moz-hyphens: manual !important;
+  -ms-hyphens: manual !important;
+  hyphens: manual !important;
 }
 /*=====  End of #covid19 section  ======*/
 /*=============================================
