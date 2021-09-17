@@ -240,16 +240,16 @@ footer.Footer {
 /*=============================================
 =            #covid19 section            =
 =============================================*/
+#covid19.Index-page {
+  background-color: hsl(192, 63%, 94%);
+}
 #covid19 {
   /* Hyphens */
-}
-#covid19 .Index-page {
-  background-color: hsl(192, 63%, 94%);
 }
 #covid19 h1 {
   font-size: 2em;
 }
-#covid19 p a {
+#covid19 a {
   -webkit-hyphens: manual !important;
   -moz-hyphens: manual !important;
   -ms-hyphens: manual !important;
