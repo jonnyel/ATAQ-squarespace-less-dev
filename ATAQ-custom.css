@@ -249,7 +249,7 @@ footer.Footer {
 #covid19 h1 {
   font-size: 2em;
 }
-#covid19 a {
+#covid19 p a {
   -webkit-hyphens: manual !important;
   -moz-hyphens: manual !important;
   -ms-hyphens: manual !important;
@@ -276,6 +276,7 @@ div.image-card div.image-subtitle-wrapper p a:hover {
 =            #testimonials section            =
 =============================================*/
 #testimonials.Index-page {
+  display: none !important;
   background-color: hsl(192, 63%, 94%);
 }
 #testimonials h1 {
