@@ -297,13 +297,13 @@ div.image-card div.image-subtitle-wrapper p a:hover {
 /*=============================================
 =  HIDE NEWSLETTER FORM ON ALL PAGES          =
 =============================================*/
-body {
+footer {
   /*----------  remove newsletter from this page  ----------*/
 }
-body div .Footer-blocks--top {
+footer div .Footer-blocks--top {
   display: none !important;
 }
-body div .Footer-blocks--middle {
+footer div .Footer-blocks--middle {
   margin-top: -1.5rem;
 }
 /*=====  HIDE NEWSLETTER FORM ON ALL PAGES  ======*/
