@@ -294,3 +294,16 @@ div.image-card div.image-subtitle-wrapper p a:hover {
   margin-top: -1.5rem;
 }
 /*=====  End of #contact page  ======*/
+/*=============================================
+=  HIDE NEWSLETTER FORM ON ALL PAGES          =
+=============================================*/
+body {
+  /*----------  remove newsletter from this page  ----------*/
+}
+body div .Footer-blocks--top {
+  display: none !important;
+}
+body div .Footer-blocks--middle {
+  margin-top: -1.5rem;
+}
+/*=====  HIDE NEWSLETTER FORM ON ALL PAGES  ======*/
