@@ -238,6 +238,16 @@ footer.Footer {
 }
 /*=====  End of #features section  ======*/
 /*=============================================
+=            #covid19 section            =
+=============================================*/
+#covid19.Index-page {
+  background-color: hsl(192, 63%, 94%);
+}
+#covid19 h1 {
+  font-size: 2em;
+}
+/*=====  End of #covid19 section  ======*/
+/*=============================================
 =            #most-popular section            =
 =============================================*/
 div.image-card div.image-subtitle-wrapper p a {
