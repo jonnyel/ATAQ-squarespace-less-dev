@@ -333,13 +333,13 @@ div #page-5e62aad805645219a3858b8f .tg tr {
 }
 div #page-5e62aad805645219a3858b8f .tg td {
   border-color: hsl(192, 63%, 25%);
-  border-style: solid;
-  border-width: 1px;
+  border-style: none;
+  border-width: 0px;
   color: hsl(192, 63%, 25%);
   font-size: 14px;
   line-height: 1.2rem;
   overflow: hidden;
-  padding: 10px 5px;
+  padding: 10px 7px;
   word-break: normal;
 }
 div #page-5e62aad805645219a3858b8f .tg td:nth-child(1) {
@@ -347,23 +347,19 @@ div #page-5e62aad805645219a3858b8f .tg td:nth-child(1) {
 }
 div #page-5e62aad805645219a3858b8f .tg th {
   background-color: hsl(192, 63%, 21%);
-  border-color: hsl(192, 63%, 94%);
-  border-style: solid;
-  border-width: 1px;
+  border-color: white;
+  border-style: none;
+  border-width: 0px;
   color: #fff;
   font-size: 14px;
   line-height: 1.2rem;
   font-weight: normal;
   overflow: hidden;
-  padding: 10px 5px;
+  padding: 10px 7px;
   word-break: normal;
 }
-div #page-5e62aad805645219a3858b8f .tg td,
-div #page-5e62aad805645219a3858b8f .tg th {
-  border: none !important;
-}
 div #page-5e62aad805645219a3858b8f .tg .tg-ru17 {
-  font-weight: bold;
+  font-weight: 700;
   position: -webkit-sticky;
   position: sticky;
   text-align: left;
