@@ -223,7 +223,9 @@ footer.Footer {
 #features div.image-card.sqs-dynamic-text-container {
   padding-top: 0.125em;
 }
-#features h2,
+#features .image-title p {
+  color: hsl(181, 82%, 40%);
+}
 #features p {
   color: hsl(181, 82%, 33%);
 }
@@ -384,3 +386,13 @@ div #page-5e62aad805645219a3858b8f .tg .tg-0lax {
   }
 }
 /* ====== REGISTER PAGE - TABLE ====== */
+/* ====== PROMOTIONAL POPUP ======= */
+.sqs-popup-overlay-close:before {
+  font-weight: 700 !important;
+}
+@media screen and (max-width: 767px) {
+  .sqs-popup-overlay-close:before {
+    color: hsl(338, 76%, 50%) !important;
+    font-weight: 700 !important;
+  }
+}

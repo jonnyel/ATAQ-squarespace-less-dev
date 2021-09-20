@@ -314,7 +314,10 @@ footer.Footer {
   div.image-card.sqs-dynamic-text-container {
       padding-top: 0.125em;
   }
-  h2, p {
+  .image-title p {
+    color: @ataq-aqua;
+  }
+  p {
     color: @ataq-aqua-type;
   }
   .sqs-block-image .design-layout-card:not(.sqs-narrow-width) {
@@ -535,3 +538,19 @@ div #page-5e62aad805645219a3858b8f {
     }
   }
 }/* ====== REGISTER PAGE - TABLE ====== */
+
+
+/* ====== PROMOTIONAL POPUP ======= */
+
+.sqs-popup-overlay-close:before {
+	font-weight: 700 !important;
+}
+
+// Mobile
+@media screen and (max-width: 767px) {
+
+  .sqs-popup-overlay-close:before {
+    color: hsl(338, 76%, 50%) !important; // this was not coloured by default
+    font-weight: 700 !important;
+  }
+}
