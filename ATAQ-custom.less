@@ -462,12 +462,19 @@ div #page-5e62aad805645219a3858b8f {
     border-spacing: 0;
   }
 
+	.tg tr:nth-child(even) {
+		background-color: white;
+	}
+
+	.tg tr {
+		background-color: @ataq-lighter;
+	}
   .tg td {
-    background-color: #EBF5FF;
+    // background-color: #EBF5FF;
     border-color: @ataq-dark-type;
     border-style: solid;
     border-width: 1px;
-    color: @ataq-dark-type;
+		color: @ataq-dark-type;
     // font-family: Arial, sans-serif;
     font-size: 14px;
 		line-height: 1.2rem;
@@ -489,6 +496,9 @@ div #page-5e62aad805645219a3858b8f {
     overflow: hidden;
     padding: 10px 5px;
     word-break: normal;
+}
+.tg td, .tg th {
+	border:none !important;
 }
 
   .tg .tg-ru17 {

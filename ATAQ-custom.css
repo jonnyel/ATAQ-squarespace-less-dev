@@ -325,8 +325,13 @@ div #page-5e62aad805645219a3858b8f .tg {
   border-color: hsl(192, 63%, 21%);
   border-spacing: 0;
 }
+div #page-5e62aad805645219a3858b8f .tg tr:nth-child(even) {
+  background-color: white;
+}
+div #page-5e62aad805645219a3858b8f .tg tr {
+  background-color: hsl(192, 63%, 94%);
+}
 div #page-5e62aad805645219a3858b8f .tg td {
-  background-color: #EBF5FF;
   border-color: hsl(192, 63%, 25%);
   border-style: solid;
   border-width: 1px;
@@ -349,6 +354,10 @@ div #page-5e62aad805645219a3858b8f .tg th {
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
+}
+div #page-5e62aad805645219a3858b8f .tg td,
+div #page-5e62aad805645219a3858b8f .tg th {
+  border: none !important;
 }
 div #page-5e62aad805645219a3858b8f .tg .tg-ru17 {
   font-weight: bold;
