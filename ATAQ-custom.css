@@ -342,6 +342,9 @@ div #page-5e62aad805645219a3858b8f .tg td {
   padding: 10px 5px;
   word-break: normal;
 }
+div #page-5e62aad805645219a3858b8f .tg td:nth-child(1) {
+  font-weight: 700;
+}
 div #page-5e62aad805645219a3858b8f .tg th {
   background-color: hsl(192, 63%, 21%);
   border-color: hsl(192, 63%, 94%);
