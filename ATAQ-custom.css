@@ -317,3 +317,62 @@ footer div .Footer-blocks--middle {
   margin-top: -1.5rem;
 }
 /*=====  HIDE NEWSLETTER FORM ON ALL PAGES  ======*/
+/*=============================================
+=              REGISTER PAGE - TABLE         =
+=============================================*/
+div #page-5e62aad805645219a3858b8f .tg {
+  border-collapse: collapse;
+  border-color: hsl(192, 63%, 21%);
+  border-spacing: 0;
+}
+div #page-5e62aad805645219a3858b8f .tg td {
+  background-color: #EBF5FF;
+  border-color: hsl(192, 63%, 25%);
+  border-style: solid;
+  border-width: 1px;
+  color: hsl(192, 63%, 25%);
+  font-size: 14px;
+  line-height: 1.2rem;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+div #page-5e62aad805645219a3858b8f .tg th {
+  background-color: hsl(192, 63%, 21%);
+  border-color: hsl(192, 63%, 94%);
+  border-style: solid;
+  border-width: 1px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2rem;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+div #page-5e62aad805645219a3858b8f .tg .tg-ru17 {
+  font-weight: bold;
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: left;
+  top: -1px;
+  vertical-align: top;
+  will-change: transform;
+}
+div #page-5e62aad805645219a3858b8f .tg .tg-0lax {
+  text-align: left;
+  vertical-align: top;
+}
+@media screen and (max-width: 767px) {
+  div #page-5e62aad805645219a3858b8f .tg {
+    width: auto !important;
+  }
+  div #page-5e62aad805645219a3858b8f .tg col {
+    width: auto !important;
+  }
+  div #page-5e62aad805645219a3858b8f .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+/* ====== REGISTER PAGE - TABLE ====== */
